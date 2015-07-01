@@ -7,7 +7,7 @@ $(function () {
 {"name":"Belgium","code":"BE","z":11},
 {"name":"Germany","code":"DE","z":10},
 {"name":"Australia","code":"AU","z":10},
-{"name":"United Kingdom","code":"GB","z":10},
+{"name":"United Kingdom","code":"UK","z":10},
 {"name":"Switzerland","code":"CH","z":10},
 {"name":"Colombia","code":"CO","z":6},
 {"name":"Portugal","code":"PT","z":4},
