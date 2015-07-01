@@ -43,7 +43,7 @@ $(function () {
         $('#container').highcharts('Map', {
             
             title : {
-                text : '2015 Giro Riders by Nationality',
+                text : '2015 Tour de France Riders by Nationality',
                 style: {fontSize: '20px', fontFamily: 'Arial, Helvetica, sans-serif', color: '#4B4B4B'}
             },
   legend: {
@@ -73,7 +73,7 @@ $(function () {
                 enableMouseTracking: false
             }, {
                 type: 'mapbubble',
-                 color: 'rgb(219,48,130)',
+                 color: 'yellow',
                 mapData: Highcharts.maps.world,
                 name: 'Number of Riders 2015',
                 joinBy: [ 'code'],
