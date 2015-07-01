@@ -73,7 +73,12 @@ $(function () {
                 enableMouseTracking: false
             }, {
                 type: 'mapbubble',
-                 color: 'rgb(255,255,0)',
+                    color: 'orange',
+                 marker: {
+            //  fillOpacity:0.3
+               fillColor: 'rgba(255,255,0,4)'
+              
+            },
                 mapData: Highcharts.maps.world,
                 name: 'Number of Riders 2015',
                 joinBy: [ 'code'],
