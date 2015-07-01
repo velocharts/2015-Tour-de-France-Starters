@@ -76,7 +76,7 @@ $(function () {
                     color: 'orange',
                  marker: {
             //  fillOpacity:0.3
-               fillColor: 'rgba(255,255,0,4)'
+               fillColor: 'rgb(255,255,0)'
               
             },
                 mapData: Highcharts.maps.world,
